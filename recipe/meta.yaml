@@ -25,6 +25,7 @@ requirements:
     - orjson >=3.9
     - jsonpointer >=2.4
     - jsonschema >=4.22
+    - matplotlib
 
 test:
   imports:
