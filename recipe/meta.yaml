@@ -1,5 +1,5 @@
 {% set name = "jenn" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jenn-{{ version }}.tar.gz
-  sha256: a7b7190b30e25d1213fdabd659de3538dbe8dade4b6e56febf2e8d6afd84ff51
+  sha256: 2c0e07bc3ce04897d9ffdbaccfe7e0f434e2251dba137d7cbe79f06d9a0f4705
 
 build:
   noarch: python
