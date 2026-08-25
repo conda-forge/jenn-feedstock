@@ -1,13 +1,13 @@
 {% set name = "jenn" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jenn-{{ version }}.tar.gz
-  sha256: d4e6f8299e49018e5c1b5c4a2ef2c0db5fc42bf73c71f31ef182b3def0b51fe4
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/jenn-{{ version }}.tar.gz
+  sha256: 6ddd03f3a30675a98dd74b189601a96c7d448144f095a97a27280ac2e54bd8ca
 
 build:
   noarch: python
